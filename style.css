@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.top-section{
+    width: 55vw;
+    display: flex;
+    margin-left: 12vw;
+    margin-top: 0vw;
+    /* border: 2px solid rgb(209, 206, 206); */
+    border-radius: 30px;
+    padding: 0.1vw 1vw;
+    box-shadow: 2px 2px 2px 2px rgb(228, 227, 227);
+}
+
+.top-input{
+    display: flex;
+    justify-content: space-between;
+}
+.text-area{
+    display: flex;
+    width: 100%;
+    /* border-right: 1px solid grey; */
+    margin: 0.2vw 0.5vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.text-area .line{
+    width: 1px;
+    height: 1.9vw;
+    background-color: rgb(139, 137, 137);
+}
+
+.top-input input{
+    width: 40vw;
+    /* height: 2vw; */
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin: 0.6vw 0.4vw;
+}
+.top-input .cross{
+    padding-top: 0.1vw;
+    width: 22px;
+    height: 22px;
+    color: rgb(68, 68, 68);
+    margin-right: 1vw;
+}
+
+.top-input .mic{
+    margin-top: 0.6vw;
+    width: 25px;
+    height: 25px;
+    color: rgb(87, 143, 226);
+}
+
+.top-input .camera{
+    margin-left: 0.8vw;
+    margin-top: 0.6vw;
+    width: 25px;
+    height: 25px;
+    /* color: rgb(87, 143, 226); */
+}
+.top-input .search{
+    color: rgb(87, 143, 226);
+    margin-left: 0.8vw;
+    margin-top: 0.8vw;
+    width: 22px;
+    height: 22px;
+}
+
+.menu-bar{
+    margin-top: 3vw;
+    width: 100%;
+    display: flex;
+    padding-left: 13vw;
+    border-bottom: 1px solid rgb(187, 186, 186);
+    padding-bottom: 0.8vw;
+}
+.menu-bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.menu-bar ul .all{
+    border-bottom: 2px solid black;
+}
+.menu-bar ul li{
+    font-size: 14px;
+    color: grey;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu-bar .dots{
+    color: grey;
+}
+
+.menu-bar .tools{
+    padding-left: 7vw;
+}
+
+.main{
+    /* width: 1%; */
+    min-height: 150vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-main{
+    width: 60%;
+    padding-left: 13vw;
+    padding-top: 3vw;
+}
+.left-main h3{
+    font-size: 13px;
+    font-weight: 600;
+}
+.left-main .web-details{
+    margin-top: 0.5vw;
+    display: flex;
+}
+
+.web-details img{
+    margin-top: 0.2vw;
+    width: 2.2vw;
+    height: 2.2vw;
+}
+
+.web-details .details{
+    padding-left: 1vw;
+}
+.web-details .details h5{
+    font-size: 13px;
+    font-weight: 400;
+} 
+.web-details .details h6{
+    font-size: 11px;
+    font-weight: 500;
+    color: rgb(100, 99, 99);
+} 
+.web-details .details h6 .dots{
+    margin-left: 0.5vw;
+    height: 1vw;
+    width: 1vw;
+    color: rgb(61, 61, 61);
+}
+
+.web-full-details{
+    padding-top: 0.5vw;
+}
+/* .main-full-details a{
+    text-decoration: none;
+} */
+
+.main-full-details h2{
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(24, 62, 167);
+}
+.main-full-details h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+}
+
+.sub-details h2{
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    color: rgb(24, 62, 167);
+}
+.sub-details a{
+    text-decoration: none;
+}
+
+.sub-details h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+    padding-left: 2vw;
+}
+
+.web-details2{
+    margin-top: 2vw;
+    display: flex;
+}
+
+
+.web-details2 img{
+    margin-top: 0.2vw;
+    width: 2.2vw;
+    height: 2.2vw;
+}
+
+.web-details2 .details{
+    padding-left: 1vw;
+}
+.web-details2 .details h5{
+    font-size: 13px;
+    font-weight: 400;
+} 
+.web-details2 .details h6{
+    font-size: 11px;
+    font-weight: 500;
+    color: rgb(100, 99, 99);
+} 
+.web-details2 .details h6 .dots{
+    margin-left: 0.5vw;
+    height: 1vw;
+    width: 1vw;
+    color: rgb(61, 61, 61);
+}
+
+.web-full-details2{
+    padding-top: 0.5vw;
+}
+
+.right-main{
+    width: 50%;
+    padding-left: 10vw;
+    padding-top:3vw;
+    /* display: flex; */
+}
+
+.right-main .line{
+    width: 1px;
+    height: 30vw;
+    background-color: rgb(189, 187, 187);
+}
+
+.right-main .web-detail{
+    display: flex;
+}
+.right-main .web-detail img{
+    margin-left: 2vw;
+    margin-top: 1vw;
+    width: 4vw;
+    height: 4vw;
+}
+.right-main .web-detail .details h5{
+    padding-top: -2vw;
+    padding-left: 1vw;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.right-main .web-detail .details h6{
+    padding-top: 0.3vw;
+    padding-left: 1vw;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(71, 70, 70);
+}
+.right-main .web-detail .details .star{
+    color: rgb(255, 153, 0);
+}
+.right-main .web-detail .details .dots{
+    padding-left: 5vw;
+}
+
+.right-main .web-detail .details h4{
+    padding-top: -2vw;
+    padding-left: 1vw;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(71, 70, 70);
+}
+
+.web-sub-details h2{
+    font-size: 13px;
+    color: rgb(73, 73, 73);
+    font-weight: 400;
+    width: 80%;
+    padding-left: 2vw;
+    line-height: 1.6vw;
+    padding-top: 1vw;
+}
+.web-sub-details h3{
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 2vw;
+    padding-top: 1vw;
+}
+
+.web-sub-details h3 span{
+    padding-left: 0.5vw;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(49, 0, 128);
+}
+.web-sub-details hr{
+    margin: 2vw 2vw;
+    width: 30vw;
+    color: rgb(167, 165, 165);
+}
+.web-sub-details h1{
+    font-size: 18px;
+    padding-left: 2vw;
+    font-weight: 500;
+}
